@@ -1,0 +1,97 @@
+*{
+    margin: 0; /*no auto space*/
+    padding: 0;
+}
+body{
+    background-color: rgb(10, 3, 43);
+    color: white;     /* font color */
+
+}
+p{
+    font-size: 32px;
+    text-align: center;
+}
+h1{
+    text-align: center;
+    font-size: 55px;
+    margin-top: 30px;
+}
+.task{
+    /* text-align: center; */
+    border: 2px;
+    margin-top: 30px;
+    margin-bottom: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px 20px;
+    font-size: 25px;
+    margin-top: 25px;
+    background: rgba( 255, 255, 255, 0.4 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 8.5px );
+    -webkit-backdrop-filter: blur( 8.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    border-bottom: 3px solid #fff;
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+.icon{
+    font-size: 25px;
+}
+.icon:hover{
+    font-size: 30px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+.icon-cross{
+    margin-right:25px ;
+}
+.icon-cross:hover{
+    color: rgb(244, 70, 70);
+}
+.icon-star-full:hover{
+    color: yellow;
+}
+.icon-checkmark:hover{
+    color: green;
+}
+form{
+    text-align: center;
+}
+input{
+    margin-left: auto;
+    margin-right: auto;
+    padding:  20px 400px;
+    border-radius:7px ;
+    font-size: 22px;
+    text-align: center;
+}
+
+button {all:unset;}
+
+.icon-arrow-up{
+    font-size: 25px;
+    position: relative;
+    top: 8px;
+}
+.icon-arrow-up:hover{
+    color: cadetblue;
+}
+h2{
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+.dn{
+    display: none;
+}
+.p{
+    /* text-align: center; */
+    margin-left: auto;
+    margin-right: auto;
+}
+.yellow{
+    color: yellow;
+}
